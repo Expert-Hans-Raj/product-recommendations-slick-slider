@@ -1,0 +1,55 @@
+/* slick-rec */
+ button.slick-prev.slick-arrow {
+    right: 39px;
+    position: absolute;
+    left: inherit;
+    top: -50px;
+}
+
+
+button.slick-next.slick-arrow {
+    position: absolute;
+    top: -50px;
+    left: inherit;
+    right: 0;
+}
+
+button.slick-next.slick-arrow, button.slick-prev.slick-arrow {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background: transparent;
+    color: #000;
+    font-size: 0;
+    cursor: pointer;
+}
+
+button.slick-next.slick-arrow::after {
+    content: "\f105";
+    font-family: FontAwesome;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #000;
+}
+
+button.slick-prev.slick-arrow::after {
+    content: "\f104";
+    font-family: FontAwesome;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #000;
+}
+
+button.slick-next.slick-arrow:hover, button.slick-prev.slick-arrow:hover {
+    background: #be0000;
+    color: #fff;
+}
+
+button.slick-next.slick-arrow:hover::after, button.slick-prev.slick-arrow:hover::after {
+    color: #fff;
+}
+/* slick-rec */
